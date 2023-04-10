@@ -1,0 +1,197 @@
+.Software_heading {
+    font-size: 24px;
+    color: #fff;
+
+    margin-top: -38px;
+    margin-bottom: 0px;
+}
+
+.Software_heading2 {
+    font-size: 12px;
+    color: #fff;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+.relative.filter-section{
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.usage-filter.count-box {
+    background: white;
+    padding: 1px 5px;
+    border-radius: 0px;
+    margin-right: 5px;
+    margin-top: -50px;
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+.sortable.none .sortType-icon {
+    display: none !important;
+}
+
+.previous-page__click-button.first-page .arrow,
+.next-page__click-button.last-page .arrow {
+    border-color: black !important;
+}
+
+.easy-data-table__rows-selector ul.select-items li.selected {
+    color: black !important;
+}
+
+.previous-page__click-button .arrow,
+.next-page__click-button .arrow {
+    border-color: white !important;
+}
+
+.data-table {
+
+    --easy-table-border: 6px solid #445269;
+    --easy-table-row-border: 3px solid #445269;
+
+    --easy-table-header-font-size: 14px;
+    --easy-table-header-height: 10px;
+    --easy-table-header-font-color: #ffffff;
+    --easy-table-header-background-color: #0c173c;
+
+    --easy-table-header-item-padding: 3px 10px;
+
+    --easy-table-body-even-row-font-color: #ffffff;
+    --easy-table-body-even-row-background-color: #0f234b;
+
+    --easy-table-body-row-font-color: #ffffff;
+    --easy-table-body-row-background-color: #0f234b;
+
+    --easy-table-body-row-height: 0px;
+    --easy-table-body-row-font-size: 15px;
+
+    --easy-table-body-row-hover-font-color: #0c173c;
+    --easy-table-body-row-hover-background-color: #eee;
+
+    --easy-table-body-item-padding: 3px 6px;
+
+    --easy-table-footer-background-color: #0c173c;
+    --easy-table-footer-font-color: #c0c7d2;
+    --easy-table-footer-font-size: 14px;
+    --easy-table-footer-padding: 0px 10px;
+    --easy-table-footer-height: 50px;
+
+    --easy-table-rows-per-page-selector-width: 70px;
+    --easy-table-rows-per-page-selector-option-padding: 10px;
+
+    --easy-table-scrollbar-track-color: #0c173c;
+    --easy-table-scrollbar-color: #0c173c;
+    --easy-table-scrollbar-thumb-color: #4c5d7a;
+    --easy-table-scrollbar-corner-color: #0c173c;
+
+    --easy-table-loading-mask-background-color: #0c173c;
+}
+.reset-btn {
+    background: white;
+    border-radius: 6px;
+
+}
+.relative.filter-section {
+    width: 100%;
+    display: flex;
+    justify-content:  center;
+    margin-bottom:0px;
+    padding:5px;
+}
+
+.usage-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right:10px;
+    margin-bottom: 0px;
+
+
+}
+
+
+.usage-filter .filter-label {
+    color: wheat;
+    margin-top: 10px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+select#grid-state {
+    padding: 7px;
+    margin-top: 0px;
+
+
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(2)>span {
+    justify-content: left !important;
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(3)>span {
+    justify-content: left !important;
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(4)>span {
+    justify-content: left !important;
+}
+
+thead.vue3-easy-data-table__header tr th:nth-child(5)>span {
+    justify-content: left !important;
+}
+thead.vue3-easy-data-table__header tr th:nth-child(6)>span {
+    justify-content: left !important;
+}
+
+.expended-row {
+    display: flex;
+    text-align: left;
+}
+
+
+.expended-row .details {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.vue3-easy-data-table__body td .expand-icon {
+    border-width: 0 3px 3px 0 !important;
+    padding: 5px !important;
+    margin-right: 5px;
+}
+
+tbody.vue3-easy-data-table__body.row-alternation tr td {
+    white-space: nowrap;
+}
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(2) {
+    text-align: left;
+}
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(3) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(4) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(5) {
+    text-align: left;
+}
+
+
+tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(6) {
+    text-align: left;
+}
+
+tbody.vue3-easy-data-table__body.row-alternation tr td {
+    border-left: 2px solid #4c5d7a;
+
+}

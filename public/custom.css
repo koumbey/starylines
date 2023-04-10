@@ -1,0 +1,51 @@
+.project-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) and (min-width: 320px){
+
+    h1.Software_heading {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    input#grid-state {
+        max-width: 156px;
+    }
+
+
+
+    tbody.vue3-easy-data-table__body.row-alternation tr td:nth-child(1) {
+        min-width: 23px !important;
+    }
+
+    thead.vue3-easy-data-table__header tr th span{
+        text-align: left;
+    }
+    
+    .vue3-easy-data-table__body.row-alternation tr td {
+        text-align: left !important;
+    }
+    .vue3-easy-data-table__body.row-alternation tr td {
+        text-align: left !important;
+    }
+
+    .vue3-easy-data-table__header th .header.direction-center {
+        justify-content: start !important;
+    }
+}
+
+
+.usage-filter.second-filter select {
+    border: none;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+.usage-filter.second-filter select:focus-visible {
+    border-color: none;
+    outline: none;
+}

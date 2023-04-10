@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "DancingScript";
+    src: local("DancingScript"),
+    url(../fonts/DancingScript/DancingScript-Regular.ttf) format("truetype");
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}

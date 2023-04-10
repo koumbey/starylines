@@ -1,0 +1,105 @@
+hr.border1 {
+    border-top: 0.5px dashed rgb(255, 255, 255);
+}
+
+hr.border2 {
+    border-top: 0.5px dashed rgb(255, 255, 255);
+}
+
+.data_heading {
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.title1 {
+    font-size: 10px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    margin-left: 3px;
+
+}
+
+
+
+.tit0 {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+
+
+
+}
+.title2 {
+    font-size: 10px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    margin-right: 3px;
+
+
+}
+
+.lang-wrapper {
+    mask-image: linear-gradient(
+            to right,
+            transparent,
+            #0c173c 5%,
+            #0c173c 95%,
+            transparent 100%
+    );
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+.prev {
+    transform: rotate(180deg);
+}
+
+@media all and (max-width: 640px) {
+    #swiper-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.lang-logo {
+    opacity: 0.5;
+}
+.lang-logo:hover {
+    opacity: 1;
+}
+.logo-selected {
+    opacity: 1;
+}
+
+
+.swiper-slide.single-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.single-category p.category-name {
+    color: wheat;
+    font-size: 10px;
+}
+
+
+
+.swiper-buttons button svg {
+    height: 15px;
+}

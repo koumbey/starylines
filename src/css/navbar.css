@@ -1,0 +1,133 @@
+.graph_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+graph_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#animations-example-6 td {
+    background-image: linear-gradient(
+            90deg,
+            #000000,
+            #000000,
+            #000001,
+            #000000,
+            #0000009b,
+            #020500
+    );
+
+
+    background-size: 600%;
+    animation: gradient-animation 3s linear infinite alternate;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+
+}
+.graph_one {
+    margin-top: 0px;
+    margin-bottom: -5px;
+    margin-left:-20px;
+    margin-right:-15px;
+}
+.graph_one th {
+    color: #000000;
+    margin-top: 0px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 6px;
+}
+.graph_one tr {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    width: 15px;
+    margin: 5px;
+}
+.graph_one td {
+    border: 1px solid #fff;
+}
+.graph_one .td_one {
+    height: 35px;
+}
+.graph_one .td_two {
+    height: 20px;
+}
+.graph_one .td_three {
+    height: 15px;
+}
+.graph_one .td_four {
+    height: 30px;
+}
+.graph_one .td_five {
+    height: 15px;
+}
+.graph_one tbody {
+    display: flex !important;
+
+}
+
+@font-face {
+    font-display: swap;
+
+}
+
+
+
+#nav-title {
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: "Anvir", serif;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align:left;
+
+}
+#navbar {
+    background-color: #a7ccff;
+
+}
+.nav-button:hover .nav-icon {
+    fill: #ffffff;
+}
+
+@media (min-width: 992px) {
+    #nav-title {
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+        -1px 1px 0 #000, 1px 1px 0 #000;
+        font-family: "Anvir", serif;
+        font-size: 23px;
+        margin-left: 5px;
+        text-align:left;
+
+    }
+    .graph_one tr {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        width: 41px;
+        margin: 5px;
+    }
+    .graph_one th {
+        color: #000000;
+        margin-top: 0px;
+        font-style: italic;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+
+}
